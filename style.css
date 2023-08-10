@@ -1,0 +1,357 @@
+
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : "poppins" , sans-serif;
+    box-sizing: border-box;     
+}
+button:hover{
+    cursor : pointer;
+}
+.site
+{
+    width : 100%;
+}
+.nav img{
+    max-width : 52px;
+    max-height : 52px;
+}
+.nav
+{
+    display : flex;
+    padding : 23px;
+    padding-left: 30px;
+    border-bottom: 2px solid rgb(102, 95, 95);
+    width : 100%;
+    flex-direction: row;
+    height : 110px;
+}
+.nav .store img:hover{
+    background-color : green; /* Change the color to grayscale on hover */
+}
+.nav ul{
+    display: flex;
+    padding-left : 45px;
+    padding-top : 20px;
+    list-style-type: none;
+}
+.nav ul li a{
+    padding-bottom : 12px;
+    padding-left : 18px;
+    text-decoration: none !important;
+    color : black;
+    font-weight: bold;
+    font-size : 15px;
+}
+.store
+{
+    margin-top : 15px;
+    padding-left : 540px;   
+}
+.store img{
+    width : 35px;
+    margin-right: 5px; 
+    padding-right: 5px; 
+}
+.nav a:hover{
+    color :  #006241;
+}
+.store a{
+    text-decoration: none !important    ;
+    color : black;
+    font-weight: bolder;
+    font-size : 13px;
+    margin-top: 18  px;;
+    align-items : center;
+    display: flex;
+}
+
+#but1,#but2
+{
+    margin-left : 50px;
+    border-radius : 50px !important;
+    height : 33px;
+    width : 79px;
+    margin-top : 15px;
+    transition: 0.5s;
+}
+#but1{
+    background-color: white;
+    color : black;
+    font-weight: bold;
+}
+#but1:hover{
+    background-color : rgb(185, 181, 181);
+}
+#but2
+{
+    background-color: black;
+    color : white;
+    margin-left : 20px !important;
+}
+#but2:hover{
+    opacity: 0.8;
+}
+.box1,.box2,.box3,.box4{
+    margin-top: 27px;
+    display : flex;
+    align-content: center;
+    align-items: stretch;
+    box-sizing: border-box !important;
+    letter-spacing : 2px;
+}
+img{
+    width : 100%;
+}
+
+.left1,.left2,.left3,.left4{
+    width: 50%;
+    content: inherit;
+    text-align: center;
+    padding-top : 132px;
+    box-sizing: border-box !important;
+}
+.right1,.right2,.right3,.right4{
+    flex-basis: 50%;    
+    align-content: center;
+    text-align: center;
+    padding-top : 132px;
+    box-sizing: border-box !important;
+}
+.right2,.right4{
+    padding-top : 0px !important;
+}
+.left1,.left3{
+    padding-top : 0px !important;
+}
+p{
+    font-size : 23px;
+    margin-top : 40px;
+    line-height: 35px;
+    font-weight: 200 !important;
+}
+.right1{
+    background-color: #006241;
+    color : white; 
+    font-size: 33px;
+    font-weight: 600!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.right3{
+    background-color: #8f8bf4;
+    color : black; 
+    font-size: 33px;
+    font-weight: 600!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.left2{
+    font-size: 33px;
+    font-weight: 600!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #eb81a5;
+    color : #1e3932;
+}
+.left4{
+    font-size: 33px;
+    font-weight: 600!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #fc6446;
+    color : black;
+}
+.join{
+    margin-top : 45px;
+    border-radius : 60px;
+    width : 110px;
+    height : 40px;
+    font-size: 16px;
+}
+#but3{
+    border : 2px solid white;
+    background-color: #006241;
+    color : white;
+}
+#but3:hover{
+    background-color: #024135 !important;
+}
+#but4:hover{
+    background-color: #d15d84;
+}
+#but5:hover{
+    background-color: #6863f0;
+}
+#but6:hover{
+    background-color: #f14c2b;
+}
+#but4{
+    background-color: #eb81a5;
+    color : #1e3932;
+    border : 2px solid #1e3932;
+    font-weight: bold;
+}
+#but5{
+    background-color: #8f8bf4;
+    color : black; 
+    font-weight: bold;
+    box-shadow: none;
+    border : 2px solid black;
+}
+#but6{
+    color : black; 
+    font-weight: bold;
+    box-shadow: none;
+    border : 2px solid black;
+    background-color:  #fc6446;
+}
+
+.box5{
+    background-color: #006241;
+    color : white;
+    margin-top : 35px;
+    border-radius: 40px;
+    width : 90%;
+    height : 650px;
+    box-shadow: 0px 0px 1px 3px rgb(0, 0, 0);
+    padding : 35px;
+    margin-left: 66px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 1);
+    opacity: 1 !important;
+}
+#review h2{
+    word-spacing: 8px;
+    line-height: 50px;
+    font-size: 40px;
+    text-decoration:wavy;
+    text-align: left;
+    color : white;
+}
+#review h2 span{
+    color : rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+.sub1{
+    font-style: italic;
+    font-family: 'Heebo', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    height : 50px;
+    font-stretch: expanded;
+    word-spacing: 10px;
+    text-decoration: underline;
+}
+.sub2{
+    padding-top: 30px;
+    width : 100%;
+    height : 500px;
+    display : flex;
+}
+.sub2 img{
+    width : 300px;
+}
+#round{
+    margin-top: 30px;
+    margin-left: 0px;   
+}
+#review{
+    padding-top: 140px;
+    padding-left: 160px;
+    text-align: center;
+    justify-content: center;
+}
+.sub3{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 37%;
+    justify-content: center;
+    padding-left: 40px;
+}
+.sub3 img{
+    height : 100px;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    width: 80px;
+    transition: 0.5s;
+}
+.box6{
+    text-align: center;
+    border-bottom: 2px solid rgb(102, 95, 95) !important;
+}
+.box6 p{
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 22px;
+    font-weight: lighter;
+    padding-top: 30px;
+    color : rgb(71, 64, 64);
+    padding-bottom : 34px;
+}
+.box7{
+    align-content: center;
+    align-items: top;
+    text-align: left;
+    margin : 50px;
+    display : flex;
+    color :    rgb(71, 64, 64);
+    padding-bottom : 25px !important;
+    border-bottom: 2px solid rgb(102, 95, 95) !important;
+}
+.box7 ul{
+    padding-right : 70px;
+}
+.box7 ul li{
+    padding-top : 40px;
+    text-decoration: wavy !important;
+    list-style-type: none;
+    font-weight: lighter !important; 
+    font-size: 16px !important;
+}
+.box7 ul li a{
+    text-decoration: wavy ;
+    color :    rgb(71, 64, 64) !important;  
+}
+
+.box8{
+    gap : 33px;
+    display: flex;
+    margin : 54px;
+}
+.box8 img{
+    width : 20px;
+    height : 25px;
+}
+
+.box9{
+    display : flex;
+    padding-left: 30px;
+}
+.box9 button{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    color :    rgb(71, 64, 64) !important;  
+}
+.box9 button:hover{
+    text-decoration: underline;
+}
+.line{
+    margin : 20px;
+    width : 1px;
+    height : 16px;
+    background-color:  rgb(71, 64, 64);
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+#last p{
+    padding-left: 47px !important;
+    font-size: 16px;
+    color :    rgb(97, 93, 93) !important;  
+    top : -20px;
+    margin-top: 0   ;
+}
+
+.sub3 img:hover{
+    height : 120px;
+    width: 100px;
+    box-shadow: 0px 0px 0px 2px 3px black;
+}
